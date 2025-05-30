@@ -1,33 +1,41 @@
-HELP.md
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Logs ###
+*.log
+log/
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### IDEs ###
+*.iml
+.idea/
+*.iws
+*.ipr
+*.bak
+*.swp
+.vscode/
+
+### Maven ###
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+### IntelliJ ###
+out/
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+### Spring Boot ###
+/*.env
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+### Flyway ###
+flyway.conf
 
-### VS Code ###
-.vscode/
+### Others ###
+.env
+*.db
+*.sqlite
+
